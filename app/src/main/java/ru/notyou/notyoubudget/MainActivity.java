@@ -24,6 +24,8 @@ public class MainActivity extends Activity {
 
         toolbar.setTitle(R.string.app_name);
 
+        toolbar.setTitleTextColor(0xb9000000);
+
         toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem menuItem) {
